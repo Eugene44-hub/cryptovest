@@ -1,0 +1,8 @@
+@import "../../sass/index.scss";
+.banner {
+    font-size: rem(24);
+}
+
+.btn {
+    @include setBtn()
+}

@@ -1,0 +1,12 @@
+@import "../../sass";
+.container {
+    .header {
+        font-weight: 900;
+        font-size: 24px;
+    }
+    .inputBtn {
+        border-width: 1px 1px 1px 0;
+        border-style: solid;
+        border-image: linear-gradient(to left, #743ad5, #d53a9d) 1 100%;
+    }
+}

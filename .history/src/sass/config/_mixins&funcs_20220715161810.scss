@@ -1,0 +1,15 @@
+@use "sass:math";
+@function rem($px, $default:16) {
+    @return (math.div($px, $default)*1rem);
+}
+
+@mixin devices($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin setBtn($bgColor) {
+    background-color: $bgColor;
+    @extend %btn
+}

@@ -1,0 +1,25 @@
+@import "../../sass";
+.container {
+    .header {
+        font-weight: 900;
+        font-size: 48px;
+        @include devices(1200px) {
+            font-size: 30px;
+        }
+        @include devices(768px) {
+            font-size: 24px;
+        }
+    }
+    .btnContainer {
+        background: $gradient1
+    }
+    .inputBtn {
+        background: $bgColor;
+        color: white;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
+
+.btn {
+    @include setBtn($gradient1)
+}

@@ -1,0 +1,15 @@
+@import "../../sass";
+.container {
+    .header {
+        font-weight: 900;
+        font-size: 24px;
+    }
+    .btnContainer {
+        background: $gradient1
+    }
+    .inputBtn {
+        background: $bgColor;
+        color: white;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
