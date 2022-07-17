@@ -1,7 +1,0 @@
-@import "../../sass/index.scss";
-.banner {
-    font-size: rem(24);
-    @include devices(1000px) {
-        color: green
-    }
-}
