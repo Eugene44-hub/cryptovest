@@ -4,6 +4,12 @@
     // background-repeat: no-repeat;
     // background-position-y: 10%;
     // background-size: 100% 100%;
+    .heroText {
+        font-size: rem(20);
+        @include devices(1200px) {
+            font-size: 16px;
+        }
+    }
     .container {
         .header {
             font-weight: 900;
@@ -26,5 +32,25 @@
     }
     .btn {
         @include setBtn($gradient1)
+    }
+    .h1 {
+        font-weight: 700;
+        font-size: rem(48);
+        @include devices(900px) {
+            font-size: rem(35);
+        }
+        @include devices(768px) {
+            font-size: rem(20);
+        }
+    }
+    .smallPara {
+        line-height: 36px;
+        font-size: rem(20);
+        @include devices(900px) {
+            font-size: rem(15);
+        }
+        @include devices(768px) {
+            font-size: rem(10);
+        }
     }
 }
