@@ -1,0 +1,9 @@
+@import "../../sass";
+.header {
+    font-size: rem(32);
+    color: $purple1;
+    font-weight: 700;
+    @include devices(768px) {
+        font-size: rem(20);
+    }
+}

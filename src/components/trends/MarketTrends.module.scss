@@ -1,0 +1,36 @@
+@import "../../sass";
+.marketsBtn {
+    color: $lightGreen;
+    border-bottom: 1px solid $lightGreen
+}
+
+.table {
+    background-color: $grey2;
+    margin: auto;
+    .td {
+        font-size: rem(20);
+        text-align: center;
+        padding: 20px 0px;
+        font-weight: 700;
+    }
+    .buyBtn {
+        color: $purple1;
+        font-size: rem(16);
+        white-space: nowrap;
+    }
+    .td,
+    .buyBtn {
+        @include devices(768px) {
+            font-size: rem(8);
+        }
+    }
+    .coin {
+        color: $purple1
+    }
+    .addpercent {
+        color: $lightGreen
+    }
+    .decreasePercent {
+        color: #FF8282
+    }
+}

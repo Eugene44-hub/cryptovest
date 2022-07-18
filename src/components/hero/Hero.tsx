@@ -6,6 +6,8 @@ import liteCoin from "../../assets/images/hero/LiteCoin.png"
 import spotlight from "../../assets/images/hero/spotlight.svg"
 import looper from "../../assets/images/hero/LooperBg.svg"
 import styles from "./Hero.module.scss"
+import {BsArrowRightShort} from "react-icons/bs";
+
 const Hero = () => {
   return (
     <section className={`${styles.section}`}>
@@ -31,7 +33,7 @@ const Hero = () => {
               <input type="text" className='p-[10px] w-[60%]' placeholder='Email/phone no' />
               <div className={`${styles.btnContainer} flex-1 p-[2px]  pl-0`}>
                 <button className={` w-full h-full  ${styles.inputBtn}`}>
-                  Learn more
+                  Learn more <BsArrowRightShort className='inline'/>
                 </button>
               </div>
             </div>
