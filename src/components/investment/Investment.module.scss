@@ -1,0 +1,40 @@
+@import "../../sass";
+.section {
+    background-color: $darkBlue1;
+    text-align: center;
+    color: white;
+    margin-top: 149px;
+    .textContainer {
+        max-width: 780px;
+        margin: auto;
+        .header {
+            font-weight: 900;
+            font-size: rem(48);
+            line-height: 62px;
+            @include devices(768px) {
+                font-size: rem(24);
+                width: 90%;
+                line-height: 31px;
+            }
+        }
+        .text {
+            color: $grey3;
+            padding-top: 16px;
+            font-size: rem(16);
+            line-height: 24px;
+            @include devices(768px) {
+                font-size: rem(14);
+                width: 70%;
+            }
+        }
+        .header,
+        .text {
+            margin: auto;
+        }
+    }
+    .btn {
+        @include setBtn($gradient1);
+        width: 216px;
+        margin-top: 32px;
+    }
+}

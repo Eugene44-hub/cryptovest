@@ -1,0 +1,33 @@
+@import "../../sass";
+.cardHeader {
+    font-weight: 800;
+    font-size: rem(24);
+    color: $purple1;
+    @include devices(768px) {
+        font-size: rem(20);
+    }
+}
+
+.Card {
+    .cardText {
+        color: $grey3;
+        @include devices(768px) {
+            font-size: rem(10);
+        }
+    }
+    .numbering {
+        font-size: rem(75);
+        font-weight: 800;
+    }
+}
+
+// .hoverBg {
+//     background: $gradient1;
+//     z-index: -1;
+//     transform: scale(1.01);
+//     opacity: 0;
+// }
+// .offerCard:hover .hoverBg {
+//     opacity: 1;
+//     transition: all .5s;
+// }

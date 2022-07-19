@@ -42,8 +42,6 @@ const Hero = () => {
             </figure>
           </div>
 
-
-
           <div className='text-center w-[90%] lg:mt-[36px] md:mt-[70px] sm:mb-[67px] md:max-w-[626px] mt-[11px] mt-[] leading-[36px] m-auto'>
             <p className={`text-white ${styles.heroText}`}>
               Buy, sell and hold your various crypto currencies in your secured wallet. Get market trends and learn more about crypto best pratices.
