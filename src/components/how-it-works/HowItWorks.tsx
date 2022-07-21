@@ -15,7 +15,7 @@ const offers: { image:string, text: string, header: string, buttonText: string }
 const HowItWorks = () => {
   return (
   
-        <section className='md:pt-[159px] pt-[72px]'>
+        <section className='md:pt-[159px] pt-[48px]'>
           <Header>How it works</Header>
           <article className='container md:pl-[61px] md:pr-[57px] px-[23px]'>
           <div className='lg:flex md:mt-[64px] mt-[83px] justify-between'>
@@ -25,7 +25,6 @@ const HowItWorks = () => {
             </div>
           </article>
         </section>
-        
       )
     }
     

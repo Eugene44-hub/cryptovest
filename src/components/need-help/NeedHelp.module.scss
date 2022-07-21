@@ -1,0 +1,21 @@
+@import "../../sass/";
+.card {
+    color: white;
+    .header {
+        font-weight: 900;
+        font-size: rem(48);
+        @include devices(1200px) {
+            font-size: rem(30);
+        }
+        @include devices(768px) {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+    .text {
+        @include devices(768px) {
+            font-size: rem(14);
+            line-height: 32px;
+        }
+    }
+}
