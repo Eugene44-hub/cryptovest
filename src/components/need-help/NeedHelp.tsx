@@ -28,7 +28,6 @@ const NeedHelp = () => {
         {needHelp.map((item,index)=>(
              <Card image={item.image} index={index} text={item.text} header={item.header}/>
         ))}
-   
       </article>
     </section>
   )

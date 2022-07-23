@@ -12,12 +12,12 @@ const learn = ["What is Cryptocureency?", "Crypto Basic", "Tips and Tutorials", 
 
 const Footer = () => {
   return (
-    <footer className={`${styles.footerContainer} md:mt-[187px] mt-[72px] container md:pl-[61px] md:pr-[57px] px-[23px]`}>
+    <footer className={`${styles.footerContainer} pb-5 md:mt-[187px] mt-[72px] container md:pl-[61px] md:pr-[57px] px-[23px]`}>
       <div className='flex items-center text-white flex-wrap justify-between'>
 
         <div className='md:order-none order-4'>
           <header className={`${styles.footerHeader}`}>CryptoVest</header>
-          <ul className='flex pr-[241px]'>
+          <ul className='flex md:pr-[241px]'>
             {handles.map((item, index) => (
               <li key={index} className='mr-[14px] mt-[67px]'>
                 <button>
