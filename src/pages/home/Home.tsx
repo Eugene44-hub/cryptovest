@@ -1,5 +1,6 @@
 import React from 'react'
 import BuildPortfolio from '../../components/build-portfolio/BuildPortfolio'
+import Footer from '../../components/footer/Footer'
 import Hero from '../../components/hero/Hero'
 import HowItWorks from '../../components/how-it-works/HowItWorks'
 import Investment from '../../components/investment/Investment'
@@ -23,6 +24,7 @@ const Home = () => {
       <NeedHelp/>
       <OurPartners/>
       <Learn/>
+      <Footer/>
     </div>
   )
 }

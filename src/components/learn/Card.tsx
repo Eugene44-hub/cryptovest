@@ -9,8 +9,9 @@ const Card = () => {
         <label className={`${styles.label} bg-[#FFFFFF12] text-[#B6B6B6]`}>CRYPTO BASIC</label>
         <p className={`${styles.header} pt-[13px] text-white`}>What is cryptocurrency? all you need to know</p>
         <p className={`${styles.text} pt-[13px] text-[#B6B6B6]`}>Cryptocurrencies are basically digital assets. It is secured by cryptography.. </p>
+       
       </div>
-
+    
     </div>)
 }
 

@@ -1,0 +1,19 @@
+@import "../../sass";
+.footerContainer {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    @include devices(768px) {
+        margin-top: 72px;
+    }
+    .footerHeader {
+        font-weight: 700;
+        font-size: rem(18);
+        margin-top: 49px;
+    }
+    .footerItems {
+        padding: 20px 0px;
+    }
+    .footerItems,
+    .copyright {
+        color: #B6B6B6;
+    }
+}

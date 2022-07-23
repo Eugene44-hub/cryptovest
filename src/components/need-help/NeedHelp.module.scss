@@ -18,4 +18,7 @@
             line-height: 32px;
         }
     }
+    .btn {
+        @include setBtn($gradient1);
+    }
 }
